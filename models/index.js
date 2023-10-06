@@ -9,7 +9,6 @@ const sequelizeInstance = new Sequelize({
     dialect: 'mysql',
 });
 
-
 // here test the connection is estabilish successfully or not.
 (async () => {
     try {
@@ -21,6 +20,14 @@ const sequelizeInstance = new Sequelize({
 })();
 
 module.exports = sequelizeInstance;
+
+
+
+
+
+
+
+
 
 
 

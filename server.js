@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./models');
 require('dotenv').config();
+require('./models/user.model');
 
 const app = express();
 const port = process.env.PORT || 3000;
